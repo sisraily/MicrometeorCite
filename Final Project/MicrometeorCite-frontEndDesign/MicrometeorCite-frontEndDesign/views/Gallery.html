@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <title>Example Meteorite</title>
+<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link href="../resources/css/my_style.css" rel="stylesheet">
+
+<script src = "../resources/allJavaScripts/votingRules.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" >Links
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="mainHomepage.html" class="dropdown-item">Home</a></li>
+        <li><a href="Gallery.html" class="dropdown-item">Image Gallery</a></li>
+        <li><a href="worldMap.html" class="dropdown-item">Meteorite Map</a></li>
+        <li><a href="newMeteoriteSubmissionForm.html" class="dropdown-item">Submit a Meteorite</a></li>
+
+      </ul>
+    </div>
+    <a class="nav navbar-nav mx-auto " href="mainHomepage.html">MicroMeteorCite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="form-inline my-2 my-lg-0">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Log in</button>
+    </div>
+    <div class="form-inline my-2 my-lg-0">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign up</button>
+    </div>
+    </div>
+  </nav>
+
+  <body>
+	<div class="container">
+    <div class = "h3">
+      <center> Gallery </center>
+      </div>
+    <div class = "row" style = "text-align:center">
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite1.jpg" alt="meteorite" height = "200px">
+        <div>
+          <p> User Description goes here (Note that we should automate loading these tags with JS but this is generally what it should look like)</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+                <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+                  </div>
+          </div>
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite2.jpg" alt="meteorite" height = "200px">
+          <div> 
+              <p> Description goes here</p>
+              </div>
+            <div>
+              <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+              <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+                </div>
+        </div>
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite3.png" alt="meteorite" height = "200px">
+        <div> 
+            <p> Description goes here</p>
+            </div>
+          <div>
+            <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+            <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+              </div>
+      </div>
+
+      </div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="../resources/js/my_scripts.js"></script>
+	</body>
+</html>
