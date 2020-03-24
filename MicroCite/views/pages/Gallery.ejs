@@ -1,0 +1,42 @@
+<% include ../partials/header %>
+<% include ../partials/menu %> 
+	<div class="container">
+    <div class = "h3">
+      <center> Gallery </center>
+      </div>
+    <div class = "row" style = "text-align:center">
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite1.jpg" alt="meteorite" height = "200px">
+        <div>
+          <p> User Description goes here (Note that we should automate loading these tags with JS but this is generally what it should look like)</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+                <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+                  </div>
+          </div>
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite2.jpg" alt="meteorite" height = "200px">
+          <div> 
+              <p> Description goes here</p>
+              </div>
+            <div>
+              <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+              <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+                </div>
+        </div>
+      <div class = "col">
+        <img src="../resources/meteoriteImageDatabase/micrometeorite3.png" alt="meteorite" height = "200px">
+        <div> 
+            <p> Description goes here</p>
+            </div>
+          <div>
+            <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+            <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+              </div>
+      </div>
+
+      </div>
+	</div>
+
+<% include ../partials/footer %>

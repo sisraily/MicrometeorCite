@@ -1,0 +1,13 @@
+/* CSS for menu nav bar */
+
+#micro-custom-nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 999;
+    position: relative;
+    width: 100%;
+}
+
+#header_jumbo {
+position:relative;
+z-index:1;
+}
